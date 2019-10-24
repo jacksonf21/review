@@ -1,0 +1,14 @@
+{
+  "name": "obj-arr-obj-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "obj.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
