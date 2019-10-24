@@ -7,7 +7,6 @@ const { students, studentsNested } = require('./obj');
 
 // #3 HIGHER ORDER FN returns key pair value of value with an object
 //RETURN KEY PAIR, TO RETURN ALL THAT MATCH NOT JUST FIRST
-
 const valueIsObject = (obj) => {
   const map = new Map();
   
@@ -29,8 +28,6 @@ for (let student in studentsNested) {
 }
 
 studentMapNested.forEach((v, k) => {
-  
-  // console.log(v, k);
   console.log(JSON.stringify(valueIsObject(v), undefined, 2));
 });
 
